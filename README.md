@@ -20,6 +20,7 @@ CSS Styling:
 
 Select a color scheme that's bright and welcoming, reminiscent of fresh produce and grocery items. Incorporate at least two brand colors.
 Apply styling to the background, font colors, buttons, input elements, and the navigation bar to reflect the chosen theme.
+
 Part 2: Implement Base Functionality with JavaScript
 Objective
 
