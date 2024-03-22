@@ -10,6 +10,18 @@ header {
     text-align: center;
 }
 
+.class {
+    background-image: url("..//img/logo-3.jpg");
+    padding: 500px;
+    padding-bottom: 500px;
+    background-size: cover;
+    background-position: 100%;
+}
+
+img {
+    height: 500px;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -33,16 +45,10 @@ h2 {
     font-size: 24px;
 }
 
-.hero {
-    background-image: url("..//img/logo-3.jpg");
-    padding: 500px;
-    padding-bottom: 500px;
-    background-size: cover;
-    background-position: 100%;
-}
-
-img {
-    height: 500px;
+#logo-container img {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
 }
 
 main {
@@ -61,4 +67,19 @@ table, th, td {
 th, td {
     padding: 10px;
     text-align: left;
+}
+
+#inventory, #add-item {
+    margin-bottom: 30px;
+}
+
+input[type="radio"] {
+    display: inline;
+    margin-right: 10px;
+    background-color: #333;
+}
+
+#low-stock-notification {
+    color: red;
+    font-weight: bold;
 }
